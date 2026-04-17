@@ -112,22 +112,22 @@ function Bento() {
 
         {/* Stat 1 */}
         <div className="bento-card flex flex-col justify-between">
-          <p className="font-mono text-xs text-gold">// engagement</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold">Engagement</p>
           <div>
             <p className="font-mono text-4xl text-gradient-gold">+20%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              User engagement lift during digital marketing internship.
+              User engagement lift during digital marketing internship
             </p>
           </div>
         </div>
 
         {/* Stat 2 */}
         <div className="bento-card flex flex-col justify-between">
-          <p className="font-mono text-xs text-gold">// score</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold">Score</p>
           <div>
             <p className="font-mono text-4xl text-gradient-gold">80%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              Diploma in Computer Science & Engineering.
+              Diploma in Computer Science &amp; Engineering
             </p>
           </div>
         </div>
