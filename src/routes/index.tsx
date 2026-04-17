@@ -44,11 +44,11 @@ function Hero() {
           Available for opportunities
         </div>
         <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-mono leading-[1.05]">
-          Umamageshwaran <span className="text-gradient-gold">A.</span>
+          Umamageshwaran <span className="text-gradient-gold">A</span>
         </h1>
         <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-          Aspiring Software Developer pursuing B.E. in Computer Science. I build
-          clean, functional web experiences and love solving problems with code.
+          Aspiring Software Developer pursuing B.E. in Computer Science — I build
+          clean, functional web experiences and love solving problems with code
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <Link
