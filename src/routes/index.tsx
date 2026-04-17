@@ -134,7 +134,7 @@ function Bento() {
 
         {/* Skills */}
         <div className="bento-card sm:col-span-2 lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-3">// stack</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">Stack</p>
           <div className="flex flex-wrap gap-2">
             {skills.map((s) => (
               <span
