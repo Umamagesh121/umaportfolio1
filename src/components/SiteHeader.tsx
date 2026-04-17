@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/70 border-b border-border">
       <div className="mx-auto max-w-6xl px-4 sm:px-5 h-16 flex items-center justify-between">
         <Link
-          to="/"
+          to="/home"
           className="flex items-center gap-2 font-mono text-sm tracking-tight"
           onClick={() => setOpen(false)}
         >

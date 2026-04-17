@@ -42,7 +42,7 @@ function WelcomePage() {
 
         <div className="mt-10 flex justify-center">
           <Link
-            to="/"
+            to="/home"
             className="group inline-flex items-center gap-2 rounded-md bg-gradient-gold px-6 py-3 text-sm font-medium text-primary-foreground shadow-gold hover:opacity-90 transition"
           >
             Enter Portfolio
