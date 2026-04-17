@@ -126,7 +126,7 @@ function Bento() {
           <div>
             <p className="font-mono text-4xl text-gradient-gold">+20%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              User engagement lift during digital marketing internship
+              User engagement lift during digital marketing internship.
             </p>
           </div>
         </div>
