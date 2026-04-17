@@ -98,7 +98,7 @@ function Bento() {
 
         {/* Education */}
         <div className="bento-card lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-2">// education</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Education</p>
           <h3 className="font-mono text-base">B.E. Computer Science</h3>
           <p className="text-sm text-muted-foreground mt-1">
             Hindusthan Institute of Technology · 2024 – 2027
