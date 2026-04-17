@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const links = [
-  { to: "/", label: "Home" },
+  { to: "/home", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/projects", label: "Projects" },
   { to: "/contact", label: "Contact" },
@@ -42,7 +42,6 @@ export function SiteHeader() {
               to={l.to}
               className="px-3 py-1.5 rounded-md text-muted-foreground hover:text-foreground transition-colors"
               activeProps={{ className: "px-3 py-1.5 rounded-md text-foreground bg-secondary" }}
-              activeOptions={{ exact: l.to === "/" }}
             >
               {l.label}
             </Link>
@@ -72,7 +71,6 @@ export function SiteHeader() {
                 onClick={() => setOpen(false)}
                 className="px-3 py-2.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
                 activeProps={{ className: "px-3 py-2.5 rounded-md text-foreground bg-secondary" }}
-                activeOptions={{ exact: l.to === "/" }}
               >
                 {l.label}
               </Link>

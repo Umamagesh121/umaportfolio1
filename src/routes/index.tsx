@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 
-export const Route = createFileRoute("/welcome")({
+export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Welcome — Umamageshwaran A" },
