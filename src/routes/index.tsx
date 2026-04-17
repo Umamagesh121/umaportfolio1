@@ -173,7 +173,8 @@ function Bento() {
               className="flex items-center justify-between rounded-md border border-border bg-secondary/40 px-3 py-2.5 hover:border-gold/50 transition group"
             >
               <span className="flex items-center gap-2 text-sm">
-                <Mail className="size-4 text-gold" /> umamageshwaran141@gmail.com
+                <Mail className="size-4 text-gold" />
+                <span>umamageshwaran141@gmail.com</span>
               </span>
               <ArrowUpRight className="size-4 text-muted-foreground group-hover:text-gold transition" />
             </a>
