@@ -61,18 +61,18 @@ function ProjectsPage() {
           </article>
 
           <aside className="bento-card">
-            <p className="font-mono text-xs text-gold mb-2">// role</p>
+            <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Role</p>
             <h3 className="font-mono text-lg">Team Leader</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Planning, delegation, and delivery.
+              Planning, delegation, and delivery
             </p>
           </aside>
 
           <aside className="bento-card">
-            <p className="font-mono text-xs text-gold mb-2">// focus</p>
+            <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Focus</p>
             <h3 className="font-mono text-lg">Hardware + Logic</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Embedded thinking with practical UX.
+              Embedded thinking with practical UX
             </p>
           </aside>
         </div>
