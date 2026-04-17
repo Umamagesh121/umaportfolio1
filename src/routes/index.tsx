@@ -94,7 +94,7 @@ const skills = [
 
 function Bento() {
   return (
-    <section className="mx-auto max-w-6xl px-5 pb-20">
+    <section className="mx-auto max-w-6xl px-4 sm:px-5 pb-16 sm:pb-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(140px,auto)]">
         {/* About */}
         <div className="bento-card grain sm:col-span-2 lg:col-span-2 lg:row-span-2 flex flex-col">
