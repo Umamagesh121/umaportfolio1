@@ -88,6 +88,7 @@ function ProjectsPage() {
             >
               follow on GitHub
             </a>
+            .
           </p>
         </div>
       </main>
