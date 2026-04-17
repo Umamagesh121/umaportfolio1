@@ -1,13 +1,12 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
-import "@fontsource/poppins/400.css";
-import "@fontsource/poppins/500.css";
-import "@fontsource/poppins/600.css";
-import "@fontsource/poppins/700.css";
-import "@fontsource/open-sans/300.css";
-import "@fontsource/open-sans/400.css";
-import "@fontsource/open-sans/500.css";
-import "@fontsource/open-sans/600.css";
+import "@fontsource/jetbrains-mono/400.css";
+import "@fontsource/jetbrains-mono/500.css";
+import "@fontsource/jetbrains-mono/700.css";
+import "@fontsource/work-sans/300.css";
+import "@fontsource/work-sans/400.css";
+import "@fontsource/work-sans/500.css";
+import "@fontsource/work-sans/600.css";
 
 import appCss from "../styles.css?url";
 
@@ -22,7 +21,7 @@ function NotFoundComponent() {
         </p>
         <div className="mt-6">
           <Link
-            to="/home"
+            to="/"
             className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-5 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 transition"
           >
             Go home
@@ -45,13 +44,19 @@ export const Route = createRootRoute({
           "Portfolio of Umamageshwaran A — aspiring software developer skilled in Java, web development, and problem-solving.",
       },
       { name: "author", content: "Umamageshwaran A" },
-      { property: "og:title", content: "Umamageshwaran A — Portfolio" },
+      { property: "og:title", content: "Umamageshwaran A — Aspiring Software Developer" },
       {
         property: "og:description",
         content: "Aspiring Software Developer · Java · Web Dev · MongoDB",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Umamageshwaran A — Aspiring Software Developer" },
+      { name: "description", content: "this my first project" },
+      { property: "og:description", content: "this my first project" },
+      { name: "twitter:description", content: "this my first project" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f309eaf9-72eb-4e1b-b874-83ee79f680e5/id-preview-a30836e8--2f332a0b-a258-4cc6-a9f7-0a48a0213519.lovable.app-1776446463251.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f309eaf9-72eb-4e1b-b874-83ee79f680e5/id-preview-a30836e8--2f332a0b-a258-4cc6-a9f7-0a48a0213519.lovable.app-1776446463251.png" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
   }),
