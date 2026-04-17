@@ -26,9 +26,9 @@ function ProjectsPage() {
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
       <main className="flex-1 mx-auto max-w-5xl px-5 py-16 w-full">
-        <p className="font-mono text-xs text-gold">// projects</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-gold">Projects</p>
         <h1 className="mt-3 text-4xl sm:text-5xl font-mono">
-          Selected <span className="text-gradient-gold">work.</span>
+          Selected <span className="text-gradient-gold">work</span>
         </h1>
         <p className="mt-4 text-muted-foreground max-w-2xl">
           A snapshot of what I've been building and leading. More coming as I
