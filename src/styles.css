@@ -153,7 +153,7 @@
   }
   .bento-card:hover {
     transform: translateY(-4px);
-    border-color: oklch(0.78 0.13 85 / 0.45);
+    border-color: oklch(0.55 0.15 50 / 0.3);
     box-shadow: var(--shadow-elegant-hover);
   }
   .bento-card:hover::after {
