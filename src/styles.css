@@ -163,7 +163,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(oklch(0.78 0.13 85 / 0.1) 1px, transparent 1px);
+    background-image: radial-gradient(oklch(0.55 0.15 50 / 0.12) 1px, transparent 1px);
     background-size: 24px 24px;
     pointer-events: none;
     opacity: 0.5;
