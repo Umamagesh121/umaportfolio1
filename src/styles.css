@@ -130,7 +130,7 @@
   .bento-card {
     position: relative;
     border-radius: 1.25rem;
-    border: 1px solid oklch(0.32 0.01 85 / 0.4);
+    border: 1px solid oklch(0.92 0.005 90);
     background: var(--gradient-card);
     padding: 1.5rem;
     box-shadow: var(--shadow-elegant);
