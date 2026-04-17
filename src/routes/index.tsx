@@ -39,31 +39,45 @@ function Index() {
 function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="mx-auto max-w-6xl px-5 pt-16 pb-12 sm:pt-24 sm:pb-16">
-        <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-3 py-1 text-xs font-mono text-muted-foreground">
-          <span className="size-1.5 rounded-full bg-gold animate-pulse" />
-          Available for opportunities
+      <div className="mx-auto max-w-6xl px-5 pt-16 pb-12 sm:pt-24 sm:pb-16 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-10 md:gap-16 items-center">
+        <div>
+          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-3 py-1 text-xs font-mono text-muted-foreground">
+            <span className="size-1.5 rounded-full bg-gold animate-pulse" />
+            Available for opportunities
+          </div>
+          <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-mono leading-[1.05]">
+            Umamageshwaran <span className="text-gradient-gold">A</span>
+          </h1>
+          <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
+            Aspiring Software Developer pursuing B.E. in Computer Science — I build
+            clean, functional web experiences and love solving problems with code
+          </p>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <Link
+              to="/projects"
+              className="inline-flex items-center gap-2 rounded-md bg-gradient-gold px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 transition shadow-gold"
+            >
+              View Projects <ArrowUpRight className="size-4" />
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-2 rounded-md border border-border bg-secondary/50 px-5 py-2.5 text-sm font-medium hover:border-gold/50 transition"
+            >
+              Get in touch
+            </Link>
+          </div>
         </div>
-        <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-mono leading-[1.05]">
-          Umamageshwaran <span className="text-gradient-gold">A</span>
-        </h1>
-        <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-          Aspiring Software Developer pursuing B.E. in Computer Science — I build
-          clean, functional web experiences and love solving problems with code
-        </p>
-        <div className="mt-8 flex flex-wrap items-center gap-3">
-          <Link
-            to="/projects"
-            className="inline-flex items-center gap-2 rounded-md bg-gradient-gold px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 transition shadow-gold"
-          >
-            View Projects <ArrowUpRight className="size-4" />
-          </Link>
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 rounded-md border border-border bg-secondary/50 px-5 py-2.5 text-sm font-medium hover:border-gold/50 transition"
-          >
-            Get in touch
-          </Link>
+
+        <div className="relative justify-self-center md:justify-self-end">
+          <div className="absolute inset-0 rounded-full bg-gradient-gold blur-2xl opacity-30 scale-110" aria-hidden />
+          <div className="relative size-44 sm:size-56 lg:size-64 rounded-full overflow-hidden border-4 border-background shadow-elegant ring-2 ring-gold/40">
+            <img
+              src={profileImg}
+              alt="Portrait of Umamageshwaran A"
+              className="w-full h-full object-cover"
+              loading="eager"
+            />
+          </div>
         </div>
       </div>
     </section>
