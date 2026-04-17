@@ -59,13 +59,13 @@ function ContactPage() {
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
       <main className="flex-1 mx-auto max-w-3xl px-5 py-16 w-full">
-        <p className="font-mono text-xs text-gold">// contact</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-gold">Contact</p>
         <h1 className="mt-3 text-4xl sm:text-5xl font-mono">
-          Let's <span className="text-gradient-gold">connect.</span>
+          Let's <span className="text-gradient-gold">connect</span>
         </h1>
         <p className="mt-4 text-muted-foreground max-w-xl">
           Open to internships, junior developer roles, and interesting
-          collaborations. The fastest way to reach me is email.
+          collaborations — the fastest way to reach me is email
         </p>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-3">

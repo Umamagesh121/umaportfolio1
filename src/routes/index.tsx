@@ -44,11 +44,11 @@ function Hero() {
           Available for opportunities
         </div>
         <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-mono leading-[1.05]">
-          Umamageshwaran <span className="text-gradient-gold">A.</span>
+          Umamageshwaran <span className="text-gradient-gold">A</span>
         </h1>
         <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-          Aspiring Software Developer pursuing B.E. in Computer Science. I build
-          clean, functional web experiences and love solving problems with code.
+          Aspiring Software Developer pursuing B.E. in Computer Science — I build
+          clean, functional web experiences and love solving problems with code
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <Link
@@ -83,13 +83,13 @@ function Bento() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(140px,auto)]">
         {/* About */}
         <div className="bento-card grain sm:col-span-2 lg:col-span-2 lg:row-span-2 flex flex-col">
-          <p className="font-mono text-xs text-gold mb-3">// about</p>
-          <h2 className="text-2xl font-mono mb-3">Building things, learning daily.</h2>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">About</p>
+          <h2 className="text-2xl font-mono mb-3">Building things, learning daily</h2>
           <p className="text-sm text-muted-foreground leading-relaxed">
             I'm a Computer Science student at Hindusthan Institute of Technology,
             Coimbatore, with a Diploma background (80%) from Government Polytechnic
-            College, Nagapadi. I enjoy turning ideas into working software — from
-            front-end interfaces to backend logic.
+            College, Nagapadi — I enjoy turning ideas into working software, from
+            front-end interfaces to backend logic
           </p>
           <div className="mt-auto pt-6 flex items-center gap-2 text-xs font-mono text-muted-foreground">
             <MapPin className="size-3.5 text-gold" /> Tiruvannamalai, Tamil Nadu
@@ -98,7 +98,7 @@ function Bento() {
 
         {/* Education */}
         <div className="bento-card lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-2">// education</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Education</p>
           <h3 className="font-mono text-base">B.E. Computer Science</h3>
           <p className="text-sm text-muted-foreground mt-1">
             Hindusthan Institute of Technology · 2024 – 2027
@@ -112,29 +112,29 @@ function Bento() {
 
         {/* Stat 1 */}
         <div className="bento-card flex flex-col justify-between">
-          <p className="font-mono text-xs text-gold">// engagement</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold">Engagement</p>
           <div>
             <p className="font-mono text-4xl text-gradient-gold">+20%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              User engagement lift during digital marketing internship.
+              User engagement lift during digital marketing internship
             </p>
           </div>
         </div>
 
         {/* Stat 2 */}
         <div className="bento-card flex flex-col justify-between">
-          <p className="font-mono text-xs text-gold">// score</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold">Score</p>
           <div>
             <p className="font-mono text-4xl text-gradient-gold">80%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              Diploma in Computer Science & Engineering.
+              Diploma in Computer Science &amp; Engineering
             </p>
           </div>
         </div>
 
         {/* Skills */}
         <div className="bento-card sm:col-span-2 lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-3">// stack</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">Stack</p>
           <div className="flex flex-wrap gap-2">
             {skills.map((s) => (
               <span
@@ -150,11 +150,11 @@ function Bento() {
 
         {/* Project preview */}
         <div className="bento-card sm:col-span-2 lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-2">// featured</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Featured</p>
           <h3 className="font-mono text-lg">Way Finding Device</h3>
           <p className="text-sm text-muted-foreground mt-2">
             Led a team to design a navigation-assistance device as the polytechnic
-            final project. Drove logic, testing, and delivery.
+            final project — drove logic, testing, and delivery
           </p>
           <Link
             to="/projects"
@@ -166,7 +166,7 @@ function Bento() {
 
         {/* Social */}
         <div className="bento-card sm:col-span-2 lg:col-span-2 flex flex-col">
-          <p className="font-mono text-xs text-gold mb-3">// connect</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">Connect</p>
           <div className="grid grid-cols-1 gap-2">
             <a
               href="mailto:umamageshwaran141@gmail.com"

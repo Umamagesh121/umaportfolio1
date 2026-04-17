@@ -27,9 +27,9 @@ function AboutPage() {
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
       <main className="flex-1 mx-auto max-w-4xl px-5 py-16 w-full">
-        <p className="font-mono text-xs text-gold">// about</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-gold">About</p>
         <h1 className="mt-3 text-4xl sm:text-5xl font-mono">
-          Curious, driven, <span className="text-gradient-gold">team-first.</span>
+          Curious, driven, <span className="text-gradient-gold">team-first</span>
         </h1>
         <p className="mt-5 text-muted-foreground leading-relaxed max-w-2xl">
           I'm Umamageshwaran A — an aspiring software developer pursuing B.E. in

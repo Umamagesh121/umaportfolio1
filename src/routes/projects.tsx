@@ -26,9 +26,9 @@ function ProjectsPage() {
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
       <main className="flex-1 mx-auto max-w-5xl px-5 py-16 w-full">
-        <p className="font-mono text-xs text-gold">// projects</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-gold">Projects</p>
         <h1 className="mt-3 text-4xl sm:text-5xl font-mono">
-          Selected <span className="text-gradient-gold">work.</span>
+          Selected <span className="text-gradient-gold">work</span>
         </h1>
         <p className="mt-4 text-muted-foreground max-w-2xl">
           A snapshot of what I've been building and leading. More coming as I
@@ -61,18 +61,18 @@ function ProjectsPage() {
           </article>
 
           <aside className="bento-card">
-            <p className="font-mono text-xs text-gold mb-2">// role</p>
+            <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Role</p>
             <h3 className="font-mono text-lg">Team Leader</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Planning, delegation, and delivery.
+              Planning, delegation, and delivery
             </p>
           </aside>
 
           <aside className="bento-card">
-            <p className="font-mono text-xs text-gold mb-2">// focus</p>
+            <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Focus</p>
             <h3 className="font-mono text-lg">Hardware + Logic</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Embedded thinking with practical UX.
+              Embedded thinking with practical UX
             </p>
           </aside>
         </div>
@@ -88,7 +88,6 @@ function ProjectsPage() {
             >
               follow on GitHub
             </a>
-            .
           </p>
         </div>
       </main>
