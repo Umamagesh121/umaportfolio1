@@ -64,7 +64,7 @@ function ProjectsPage() {
             <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Role</p>
             <h3 className="font-mono text-lg">Team Leader</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Planning, delegation, and delivery
+              Planning, delegation, and delivery.
             </p>
           </aside>
 
@@ -88,6 +88,7 @@ function ProjectsPage() {
             >
               follow on GitHub
             </a>
+            .
           </p>
         </div>
       </main>

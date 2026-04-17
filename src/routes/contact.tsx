@@ -65,7 +65,7 @@ function ContactPage() {
         </h1>
         <p className="mt-4 text-muted-foreground max-w-xl">
           Open to internships, junior developer roles, and interesting
-          collaborations — the fastest way to reach me is email
+          collaborations. The fastest way to reach me is email.
         </p>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-3">

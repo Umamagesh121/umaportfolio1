@@ -95,12 +95,11 @@ function Bento() {
         {/* About */}
         <div className="bento-card grain sm:col-span-2 lg:col-span-2 lg:row-span-2 flex flex-col">
           <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">About</p>
-          <h2 className="text-2xl font-mono mb-3">Building things, learning daily</h2>
           <p className="text-sm text-muted-foreground leading-relaxed">
             I'm a Computer Science student at Hindusthan Institute of Technology,
             Coimbatore, with a Diploma background (80%) from Government Polytechnic
-            College, Nagapadi — I enjoy turning ideas into working software, from
-            front-end interfaces to backend logic
+            College, Nagapadi. I enjoy turning ideas into working software — from
+            front-end interfaces to backend logic.
           </p>
           <div className="mt-auto pt-6 flex items-center gap-2 text-xs font-mono text-muted-foreground">
             <MapPin className="size-3.5 text-gold" /> Tiruvannamalai, Tamil Nadu
@@ -127,7 +126,7 @@ function Bento() {
           <div>
             <p className="font-mono text-4xl text-gradient-gold">+20%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              User engagement lift during digital marketing internship
+              User engagement lift during digital marketing internship.
             </p>
           </div>
         </div>
@@ -138,7 +137,7 @@ function Bento() {
           <div>
             <p className="font-mono text-4xl text-gradient-gold">80%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              Diploma in Computer Science &amp; Engineering
+              Diploma in Computer Science &amp; Engineering.
             </p>
           </div>
         </div>
@@ -164,8 +163,8 @@ function Bento() {
           <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Featured</p>
           <h3 className="font-mono text-lg">Way Finding Device</h3>
           <p className="text-sm text-muted-foreground mt-2">
-            Led a team to design a navigation-assistance device as the polytechnic
-            final project — drove logic, testing, and delivery
+            Led a team to design a navigation-assistance device as the
+            polytechnic final project — drove logic, testing, and delivery.
           </p>
           <Link
             to="/projects"
