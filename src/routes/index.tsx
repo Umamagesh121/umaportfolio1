@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Code, Briefcase, Mail, MapPin, Code2, Database, Globe, GitBranch, Sparkles } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import profileImg from "@/assets/profile.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
