@@ -163,8 +163,8 @@ function Bento() {
           <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Featured</p>
           <h3 className="font-mono text-lg">Way Finding Device</h3>
           <p className="text-sm text-muted-foreground mt-2">
-            Led a team to design a navigation-assistance device as the polytechnic
-            final project — drove logic, testing, and delivery
+            Led a team to design a navigation-assistance device as the
+            polytechnic final project — drove logic, testing, and delivery.
           </p>
           <Link
             to="/projects"
