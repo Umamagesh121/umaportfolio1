@@ -63,8 +63,23 @@
 
   --gradient-gold: linear-gradient(135deg, oklch(0.78 0.13 85), oklch(0.86 0.11 88));
   --gradient-noir: linear-gradient(180deg, oklch(0.16 0 0), oklch(0.2 0 0));
-  --shadow-gold: 0 20px 60px -20px oklch(0.78 0.13 85 / 0.35);
-  --shadow-elegant: 0 10px 40px -10px oklch(0 0 0 / 0.6);
+  --gradient-card: linear-gradient(145deg, oklch(0.23 0.005 85), oklch(0.17 0 0));
+  --gradient-radial-gold: radial-gradient(circle at 30% 0%, oklch(0.78 0.13 85 / 0.18), transparent 60%);
+
+  /* Layered shadow system */
+  --shadow-gold: 0 30px 80px -20px oklch(0.78 0.13 85 / 0.4), 0 8px 24px -8px oklch(0.78 0.13 85 / 0.25);
+  --shadow-elegant:
+    0 1px 0 0 oklch(1 0 0 / 0.04) inset,
+    0 -1px 0 0 oklch(0 0 0 / 0.4) inset,
+    0 2px 4px -1px oklch(0 0 0 / 0.4),
+    0 12px 24px -8px oklch(0 0 0 / 0.5),
+    0 32px 64px -16px oklch(0 0 0 / 0.6);
+  --shadow-elegant-hover:
+    0 1px 0 0 oklch(0.78 0.13 85 / 0.15) inset,
+    0 -1px 0 0 oklch(0 0 0 / 0.5) inset,
+    0 4px 8px -2px oklch(0 0 0 / 0.5),
+    0 20px 40px -12px oklch(0 0 0 / 0.6),
+    0 40px 80px -20px oklch(0.78 0.13 85 / 0.25);
 }
 
 @layer base {
@@ -78,6 +93,13 @@
     color: var(--foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, oklch(0.78 0.13 85 / 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 100%, oklch(0.78 0.13 85 / 0.04), transparent);
+    background-attachment: fixed;
   }
 
   h1, h2, h3, h4, .mono {
@@ -109,25 +131,44 @@
   }
   .bento-card {
     position: relative;
-    border-radius: 1rem;
-    border: 1px solid var(--border);
-    background: linear-gradient(180deg, oklch(0.22 0 0), oklch(0.18 0 0));
+    border-radius: 1.25rem;
+    border: 1px solid oklch(0.32 0.01 85 / 0.4);
+    background: var(--gradient-card);
     padding: 1.5rem;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: var(--shadow-elegant);
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.3s ease,
+                box-shadow 0.4s ease;
     overflow: hidden;
+    isolation: isolate;
+  }
+  .bento-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: var(--gradient-radial-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: -1;
   }
   .bento-card:hover {
-    transform: translateY(-3px);
-    border-color: oklch(0.78 0.13 85 / 0.5);
-    box-shadow: var(--shadow-gold);
+    transform: translateY(-4px);
+    border-color: oklch(0.78 0.13 85 / 0.45);
+    box-shadow: var(--shadow-elegant-hover);
+  }
+  .bento-card:hover::after {
+    opacity: 1;
   }
   .grain::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(oklch(0.78 0.13 85 / 0.08) 1px, transparent 1px);
+    background-image: radial-gradient(oklch(0.78 0.13 85 / 0.1) 1px, transparent 1px);
     background-size: 24px 24px;
     pointer-events: none;
-    opacity: 0.4;
+    opacity: 0.5;
+    mask-image: radial-gradient(ellipse at top right, black, transparent 70%);
   }
 }
