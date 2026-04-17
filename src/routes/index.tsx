@@ -83,13 +83,13 @@ function Bento() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(140px,auto)]">
         {/* About */}
         <div className="bento-card grain sm:col-span-2 lg:col-span-2 lg:row-span-2 flex flex-col">
-          <p className="font-mono text-xs text-gold mb-3">// about</p>
-          <h2 className="text-2xl font-mono mb-3">Building things, learning daily.</h2>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">About</p>
+          <h2 className="text-2xl font-mono mb-3">Building things, learning daily</h2>
           <p className="text-sm text-muted-foreground leading-relaxed">
             I'm a Computer Science student at Hindusthan Institute of Technology,
             Coimbatore, with a Diploma background (80%) from Government Polytechnic
-            College, Nagapadi. I enjoy turning ideas into working software — from
-            front-end interfaces to backend logic.
+            College, Nagapadi — I enjoy turning ideas into working software, from
+            front-end interfaces to backend logic
           </p>
           <div className="mt-auto pt-6 flex items-center gap-2 text-xs font-mono text-muted-foreground">
             <MapPin className="size-3.5 text-gold" /> Tiruvannamalai, Tamil Nadu
