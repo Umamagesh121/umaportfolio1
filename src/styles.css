@@ -32,8 +32,8 @@
   --color-ring: var(--ring);
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --font-sans: "Work Sans", system-ui, sans-serif;
+  --font-mono: "Poppins", system-ui, sans-serif;
+  --font-sans: "Open Sans", system-ui, sans-serif;
 }
 
 :root {
