@@ -166,7 +166,7 @@ function Bento() {
 
         {/* Social */}
         <div className="bento-card sm:col-span-2 lg:col-span-2 flex flex-col">
-          <p className="font-mono text-xs text-gold mb-3">// connect</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-3">Connect</p>
           <div className="grid grid-cols-1 gap-2">
             <a
               href="mailto:umamageshwaran141@gmail.com"
