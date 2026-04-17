@@ -41,10 +41,6 @@ function Hero() {
     <section className="relative overflow-hidden">
       <div className="mx-auto max-w-6xl px-4 sm:px-5 pt-10 sm:pt-20 pb-10 sm:pb-16 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-12 lg:gap-16 items-center">
         <div className="order-2 md:order-1 text-center md:text-left">
-          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-3 py-1 text-xs font-mono text-muted-foreground">
-            <span className="size-1.5 rounded-full bg-gold animate-pulse" />
-            Available for opportunities
-          </div>
           <h1 className="mt-5 text-3xl sm:text-5xl lg:text-7xl font-mono leading-[1.05] break-words">
             Umamageshwaran <span className="text-gradient-gold">A</span>
           </h1>
