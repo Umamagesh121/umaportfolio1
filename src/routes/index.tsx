@@ -197,7 +197,8 @@ function Bento() {
               className="flex items-center justify-between rounded-md border border-border bg-secondary/40 px-3 py-2.5 hover:border-gold/50 transition group"
             >
               <span className="flex items-center gap-2 text-sm">
-                <Briefcase className="size-4 text-gold" /> linkedin.com/in/umamagesh15
+                <Briefcase className="size-4 text-gold" />
+                <span>linkedin.com/in/umamagesh15</span>
               </span>
               <ArrowUpRight className="size-4 text-muted-foreground group-hover:text-gold transition" />
             </a>
