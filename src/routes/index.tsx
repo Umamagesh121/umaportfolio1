@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowUpRight, Github, Linkedin, Mail, MapPin, Code2, Database, Globe, GitBranch, Sparkles } from "lucide-react";
+import { ArrowUpRight, Code, Linkedin as LinkedinIcon, Mail, MapPin, Code2, Database, Globe, GitBranch, Sparkles } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
