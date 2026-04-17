@@ -37,49 +37,47 @@
 }
 
 :root {
-  --radius: 0.5rem;
-  /* Noir & Gold */
-  --background: oklch(0.16 0 0);
-  --foreground: oklch(0.96 0.01 90);
-  --card: oklch(0.2 0 0);
-  --card-foreground: oklch(0.96 0.01 90);
-  --popover: oklch(0.2 0 0);
-  --popover-foreground: oklch(0.96 0.01 90);
-  --primary: oklch(0.78 0.13 85);
-  --primary-foreground: oklch(0.13 0 0);
-  --secondary: oklch(0.24 0 0);
-  --secondary-foreground: oklch(0.96 0.01 90);
-  --muted: oklch(0.22 0 0);
-  --muted-foreground: oklch(0.7 0.02 85);
-  --accent: oklch(0.86 0.11 88);
-  --accent-foreground: oklch(0.13 0 0);
+  --radius: 0.75rem;
+  /* Light & Refined */
+  --background: oklch(0.99 0.002 90);
+  --foreground: oklch(0.18 0.01 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.01 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.01 260);
+  --primary: oklch(0.55 0.15 50);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.97 0.005 90);
+  --secondary-foreground: oklch(0.25 0.01 260);
+  --muted: oklch(0.96 0.005 90);
+  --muted-foreground: oklch(0.5 0.01 260);
+  --accent: oklch(0.65 0.16 55);
+  --accent-foreground: oklch(0.18 0.01 260);
   --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.28 0.01 85 / 0.5);
-  --input: oklch(0.28 0.01 85 / 0.6);
-  --ring: oklch(0.78 0.13 85);
-  --gold: oklch(0.78 0.13 85);
-  --gold-soft: oklch(0.86 0.11 88);
+  --border: oklch(0.92 0.005 90);
+  --input: oklch(0.94 0.005 90);
+  --ring: oklch(0.55 0.15 50);
+  --gold: oklch(0.55 0.15 50);
+  --gold-soft: oklch(0.65 0.16 55);
 
-  --gradient-gold: linear-gradient(135deg, oklch(0.78 0.13 85), oklch(0.86 0.11 88));
-  --gradient-noir: linear-gradient(180deg, oklch(0.16 0 0), oklch(0.2 0 0));
-  --gradient-card: linear-gradient(145deg, oklch(0.23 0.005 85), oklch(0.17 0 0));
-  --gradient-radial-gold: radial-gradient(circle at 30% 0%, oklch(0.78 0.13 85 / 0.18), transparent 60%);
+  --gradient-gold: linear-gradient(135deg, oklch(0.55 0.15 50), oklch(0.65 0.16 55));
+  --gradient-noir: linear-gradient(180deg, oklch(0.99 0.002 90), oklch(0.97 0.005 90));
+  --gradient-card: linear-gradient(145deg, oklch(1 0 0), oklch(0.98 0.003 90));
+  --gradient-radial-gold: radial-gradient(circle at 30% 0%, oklch(0.55 0.15 50 / 0.08), transparent 60%);
 
-  /* Layered shadow system */
-  --shadow-gold: 0 30px 80px -20px oklch(0.78 0.13 85 / 0.4), 0 8px 24px -8px oklch(0.78 0.13 85 / 0.25);
+  /* Layered shadow system - soft & airy */
+  --shadow-gold: 0 30px 80px -20px oklch(0.55 0.15 50 / 0.25), 0 8px 24px -8px oklch(0.55 0.15 50 / 0.15);
   --shadow-elegant:
-    0 1px 0 0 oklch(1 0 0 / 0.04) inset,
-    0 -1px 0 0 oklch(0 0 0 / 0.4) inset,
-    0 2px 4px -1px oklch(0 0 0 / 0.4),
-    0 12px 24px -8px oklch(0 0 0 / 0.5),
-    0 32px 64px -16px oklch(0 0 0 / 0.6);
+    0 1px 0 0 oklch(1 0 0) inset,
+    0 1px 2px 0 oklch(0.18 0.01 260 / 0.04),
+    0 4px 12px -2px oklch(0.18 0.01 260 / 0.06),
+    0 16px 32px -8px oklch(0.18 0.01 260 / 0.08);
   --shadow-elegant-hover:
-    0 1px 0 0 oklch(0.78 0.13 85 / 0.15) inset,
-    0 -1px 0 0 oklch(0 0 0 / 0.5) inset,
-    0 4px 8px -2px oklch(0 0 0 / 0.5),
-    0 20px 40px -12px oklch(0 0 0 / 0.6),
-    0 40px 80px -20px oklch(0.78 0.13 85 / 0.25);
+    0 1px 0 0 oklch(1 0 0) inset,
+    0 2px 4px 0 oklch(0.18 0.01 260 / 0.05),
+    0 12px 24px -4px oklch(0.18 0.01 260 / 0.1),
+    0 32px 64px -16px oklch(0.55 0.15 50 / 0.15);
 }
 
 @layer base {
@@ -97,8 +95,8 @@
 
   body {
     background-image:
-      radial-gradient(ellipse 80% 50% at 50% -10%, oklch(0.78 0.13 85 / 0.08), transparent),
-      radial-gradient(ellipse 60% 40% at 100% 100%, oklch(0.78 0.13 85 / 0.04), transparent);
+      radial-gradient(ellipse 80% 50% at 50% -10%, oklch(0.55 0.15 50 / 0.06), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 100%, oklch(0.65 0.16 55 / 0.04), transparent);
     background-attachment: fixed;
   }
 
@@ -132,7 +130,7 @@
   .bento-card {
     position: relative;
     border-radius: 1.25rem;
-    border: 1px solid oklch(0.32 0.01 85 / 0.4);
+    border: 1px solid oklch(0.92 0.005 90);
     background: var(--gradient-card);
     padding: 1.5rem;
     box-shadow: var(--shadow-elegant);
@@ -155,7 +153,7 @@
   }
   .bento-card:hover {
     transform: translateY(-4px);
-    border-color: oklch(0.78 0.13 85 / 0.45);
+    border-color: oklch(0.55 0.15 50 / 0.3);
     box-shadow: var(--shadow-elegant-hover);
   }
   .bento-card:hover::after {
@@ -165,7 +163,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(oklch(0.78 0.13 85 / 0.1) 1px, transparent 1px);
+    background-image: radial-gradient(oklch(0.55 0.15 50 / 0.12) 1px, transparent 1px);
     background-size: 24px 24px;
     pointer-events: none;
     opacity: 0.5;
