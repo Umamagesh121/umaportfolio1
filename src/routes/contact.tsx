@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { Mail, Phone, MapPin, Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, Code, Briefcase, ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -35,13 +35,13 @@ const items = [
     href: "tel:+916374377357",
   },
   {
-    icon: Github,
+    icon: Code,
     label: "GitHub",
     value: "github.com/Umamagesh121",
     href: "https://github.com/Umamagesh121",
   },
   {
-    icon: Linkedin,
+    icon: Briefcase,
     label: "LinkedIn",
     value: "linkedin.com/in/umamagesh15",
     href: "https://www.linkedin.com/in/umamagesh15",
