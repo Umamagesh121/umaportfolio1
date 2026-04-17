@@ -137,7 +137,7 @@ function Bento() {
           <div>
             <p className="font-mono text-4xl text-gradient-gold">80%</p>
             <p className="text-xs text-muted-foreground mt-1">
-              Diploma in Computer Science &amp; Engineering
+              Diploma in Computer Science &amp; Engineering.
             </p>
           </div>
         </div>
