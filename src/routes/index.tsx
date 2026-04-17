@@ -150,11 +150,11 @@ function Bento() {
 
         {/* Project preview */}
         <div className="bento-card sm:col-span-2 lg:col-span-2">
-          <p className="font-mono text-xs text-gold mb-2">// featured</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Featured</p>
           <h3 className="font-mono text-lg">Way Finding Device</h3>
           <p className="text-sm text-muted-foreground mt-2">
             Led a team to design a navigation-assistance device as the polytechnic
-            final project. Drove logic, testing, and delivery.
+            final project — drove logic, testing, and delivery
           </p>
           <Link
             to="/projects"
