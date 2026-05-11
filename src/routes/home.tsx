@@ -61,14 +61,6 @@ function Hero() {
             >
               Get in touch
             </Link>
-            <a
-              href="https://www.linkedin.com/in/umamagesh15"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-md border border-gold/50 bg-secondary/50 px-5 py-2.5 text-sm font-medium text-gold hover:bg-secondary transition"
-            >
-              <Briefcase className="size-4" /> Connect on LinkedIn
-            </a>
           </div>
         </div>
 
