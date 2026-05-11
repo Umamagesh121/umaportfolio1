@@ -43,8 +43,8 @@ const items = [
   {
     icon: Briefcase,
     label: "LinkedIn",
-    value: "linkedin.com/posts/umamagesh15",
-    href: "https://www.linkedin.com/posts/umamagesh15",
+    value: "linkedin.com/in/umamagesh15",
+    href: "https://www.linkedin.com/in/umamagesh15",
   },
   {
     icon: MapPin,
