@@ -68,14 +68,8 @@ function ContactPage() {
           collaborations. The fastest way to reach me is email.
         </p>
 
-        <a
-          href="https://www.linkedin.com/in/umamagesh15"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-6 inline-flex items-center gap-2 rounded-md bg-gradient-gold px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 transition shadow-gold"
-        >
-          <Briefcase className="size-4" /> Connect on LinkedIn
-        </a>
+
+
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-3">
           {items.map((it) => {
